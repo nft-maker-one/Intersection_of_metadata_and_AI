@@ -1,0 +1,115 @@
+Listen = "0.0.0.0:5678"
+ProxyURL = ""
+MysqlDns = ""
+StaticDir = "./static"
+StaticUrl = "http://localhost/5678/static"
+WeChatBot = false
+
+[Session]
+  SecretKey = "uwl1huije6yatqsh0xu5x0cyki7xpozvd2v8jq1mbdlcvklvmm6dxf6ju15piphl"
+  MaxAge = 86400
+
+[AdminSession]
+  SecretKey = ""
+  MaxAge = 0
+
+[Redis]
+  Host = "localhost"
+  Port = 6379
+  Password = ""
+  DB = 0
+
+[ApiConfig]
+  ApiURL = ""
+  AppId = ""
+  Token = ""
+
+[SMS]
+  Active = ""
+  [SMS.Ali]
+    AccessKey = ""
+    AccessSecret = ""
+    Product = ""
+    Domain = ""
+    Sign = ""
+    CodeTempId = ""
+  [SMS.Bao]
+    Username = ""
+    Password = ""
+    Domain = ""
+    Sign = ""
+    CodeTemplate = ""
+
+[OSS]
+  Active = "local"
+  [OSS.Local]
+    BasePath = "./static/upload"
+    BaseURL = "http://localhost/5678/static/upload"
+  [OSS.Minio]
+    Endpoint = ""
+    AccessKey = ""
+    AccessSecret = ""
+    Bucket = ""
+    SubDir = ""
+    UseSSL = false
+    Domain = ""
+  [OSS.QiNiu]
+    Zone = ""
+    AccessKey = ""
+    AccessSecret = ""
+    Bucket = ""
+    SubDir = ""
+    Domain = ""
+  [OSS.AliYun]
+    Endpoint = ""
+    AccessKey = ""
+    AccessSecret = ""
+    Bucket = ""
+    SubDir = ""
+    Domain = ""
+
+[XXLConfig]
+  Enabled = false
+  ServerAddr = ""
+  ExecutorIp = ""
+  ExecutorPort = ""
+  AccessToken = ""
+  RegistryKey = ""
+
+[AlipayConfig]
+  Enabled = false
+  SandBox = false
+  AppId = ""
+  UserId = ""
+  PrivateKey = ""
+  PublicKey = ""
+  AlipayPublicKey = ""
+  RootCert = ""
+  NotifyURL = ""
+  ReturnURL = ""
+
+[HuPiPayConfig]
+  Enabled = false
+  Name = ""
+  AppId = ""
+  AppSecret = ""
+  ApiURL = ""
+  NotifyURL = ""
+  ReturnURL = ""
+
+[SmtpConfig]
+  UseTls = false
+  Host = ""
+  Port = 0
+  AppName = ""
+  From = ""
+  Password = ""
+
+[JPayConfig]
+  Enabled = false
+  Name = ""
+  AppId = ""
+  PrivateKey = ""
+  ApiURL = ""
+  NotifyURL = ""
+  ReturnURL = ""
