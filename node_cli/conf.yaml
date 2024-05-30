@@ -1,0 +1,4 @@
+platform: OpenAI
+apiKey: "sk-s7oSvD3XTNgS0lUlRuPFdFUDCuGDmDS1Bga3f8eSdBCqlNWE"
+version: "gpt-3.5-turbo"
+proxyUrl: "https://api.chatanywhere.tech"
