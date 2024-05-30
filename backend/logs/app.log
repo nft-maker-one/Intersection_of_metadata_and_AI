@@ -1,0 +1,71 @@
+2024-05-29T19:14:33.223+0800	INFO	api/main.go:67	Loading config file: config.toml
+2024-05-29T19:14:33.244+0800	INFO	core/config.go:43	creating new config file: config.toml
+2024-05-29T19:15:28.074+0800	INFO	api/main.go:67	Loading config file: config.toml
+2024-05-29T19:24:49.535+0800	INFO	api/main.go:67	Loading config file: config.toml
+2024-05-29T19:25:24.604+0800	INFO	api/main.go:67	Loading config file: config.toml
+2024-05-29T19:25:24.641+0800	INFO	dalle/service.go:197	Running DALL-E task notify checking ...
+2024-05-29T19:25:24.641+0800	INFO	dalle/service.go:264	Running Stable-Diffusion task status checking ...
+2024-05-29T19:25:24.671+0800	INFO	service/xxl_job_service.go:24	XXL-JOB service is disabled
+2024-05-29T19:25:24.708+0800	INFO	payment/alipay_service.go:23	Disabled Alipay service
+2024-05-29T19:25:24.713+0800	INFO	api/main.go:47	AppLifecycle OnStart
+2024-05-29T19:25:24.714+0800	INFO	core/app_server.go:82	http://0.0.0.0:5678
+2024-05-29T19:28:17.255+0800	INFO	api/main.go:53	AppLifecycle OnStop
+2024-05-29T19:39:47.640+0800	INFO	api/main.go:67	Loading config file: config.toml
+2024-05-29T19:39:47.676+0800	INFO	dalle/service.go:197	Running DALL-E task notify checking ...
+2024-05-29T19:39:47.676+0800	INFO	dalle/service.go:264	Running Stable-Diffusion task status checking ...
+2024-05-29T19:39:47.701+0800	INFO	service/xxl_job_service.go:24	XXL-JOB service is disabled
+2024-05-29T19:39:47.742+0800	INFO	payment/alipay_service.go:23	Disabled Alipay service
+2024-05-29T19:39:47.748+0800	INFO	api/main.go:47	AppLifecycle OnStart
+2024-05-29T19:39:47.749+0800	INFO	core/app_server.go:82	http://0.0.0.0:5678
+2024-05-29T20:20:05.568+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:22:13.664+0800	INFO	chatimpl/chat_handler.go:162	Receive a message: 获取济南著名景点
+2024-05-29T20:22:14.562+0800	INFO	chatimpl/openai_handler.go:44	HTTP请求完成，耗时：716.1461ms
+2024-05-29T20:22:20.458+0800	INFO	chatimpl/chat_handler.go:174	回答完毕: 获取济南著名景点
+2024-05-29T20:22:20.472+0800	ERROR	core/app_server.go:90	Handler Panic: runtime error: invalid memory address or nil pointer dereference
+2024-05-29T20:23:51.098+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:28:18.610+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:28:25.520+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:28:36.793+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:28:48.123+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:28:51.374+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:29:25.063+0800	INFO	api/main.go:53	AppLifecycle OnStop
+2024-05-29T20:35:43.013+0800	INFO	api/main.go:67	Loading config file: config.toml
+2024-05-29T20:35:43.054+0800	INFO	dalle/service.go:197	Running DALL-E task notify checking ...
+2024-05-29T20:35:43.054+0800	INFO	dalle/service.go:264	Running Stable-Diffusion task status checking ...
+2024-05-29T20:35:43.084+0800	INFO	service/xxl_job_service.go:24	XXL-JOB service is disabled
+2024-05-29T20:35:43.129+0800	INFO	payment/alipay_service.go:23	Disabled Alipay service
+2024-05-29T20:35:43.135+0800	INFO	api/main.go:47	AppLifecycle OnStart
+2024-05-29T20:35:43.137+0800	INFO	core/app_server.go:82	http://0.0.0.0:5678
+2024-05-29T20:38:09.494+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:45:00.879+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:46:31.522+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:46:54.664+0800	INFO	chatimpl/chat_handler.go:162	Receive a message: 中国宪法日是哪天
+2024-05-29T20:46:55.782+0800	INFO	chatimpl/openai_handler.go:44	HTTP请求完成，耗时：903.0215ms
+2024-05-29T20:46:58.014+0800	INFO	chatimpl/chat_handler.go:174	回答完毕: 中国宪法日是哪天
+2024-05-29T20:46:58.026+0800	ERROR	core/app_server.go:90	Handler Panic: runtime error: invalid memory address or nil pointer dereference
+2024-05-29T20:47:59.849+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T20:50:14.689+0800	INFO	api/main.go:53	AppLifecycle OnStop
+2024-05-29T20:55:20.291+0800	INFO	backend/main.go:67	Loading config file: config.toml
+2024-05-29T20:55:20.335+0800	INFO	dalle/service.go:197	Running DALL-E task notify checking ...
+2024-05-29T20:55:20.335+0800	INFO	dalle/service.go:264	Running Stable-Diffusion task status checking ...
+2024-05-29T20:55:20.359+0800	INFO	service/xxl_job_service.go:24	XXL-JOB service is disabled
+2024-05-29T20:55:20.404+0800	INFO	payment/alipay_service.go:23	Disabled Alipay service
+2024-05-29T20:55:20.410+0800	INFO	backend/main.go:47	AppLifecycle OnStart
+2024-05-29T20:55:20.411+0800	INFO	core/app_server.go:82	http://0.0.0.0:5678
+2024-05-29T20:55:33.778+0800	INFO	chatimpl/chat_handler.go:128	New websocket connected, IP: ::1, Username: 18575670125
+2024-05-29T21:57:59.821+0800	INFO	backend/main.go:53	AppLifecycle OnStop
+2024-05-29T23:34:34.663+0800	INFO	backend/main.go:67	Loading config file: config.toml
+2024-05-29T23:34:34.770+0800	INFO	dalle/service.go:197	Running DALL-E task notify checking ...
+2024-05-29T23:34:34.770+0800	INFO	dalle/service.go:264	Running Stable-Diffusion task status checking ...
+2024-05-29T23:34:34.803+0800	INFO	service/xxl_job_service.go:24	XXL-JOB service is disabled
+2024-05-29T23:34:34.870+0800	INFO	payment/alipay_service.go:23	Disabled Alipay service
+2024-05-29T23:34:34.882+0800	INFO	backend/main.go:47	AppLifecycle OnStart
+2024-05-29T23:34:34.888+0800	INFO	core/app_server.go:82	http://0.0.0.0:5678
+2024-05-30T01:25:06.299+0800	INFO	backend/main.go:53	AppLifecycle OnStop
+2024-05-30T01:25:23.596+0800	INFO	backend/main.go:67	Loading config file: config.toml
+2024-05-30T01:25:23.627+0800	INFO	dalle/service.go:264	Running Stable-Diffusion task status checking ...
+2024-05-30T01:25:23.627+0800	INFO	dalle/service.go:197	Running DALL-E task notify checking ...
+2024-05-30T01:25:23.650+0800	INFO	service/xxl_job_service.go:24	XXL-JOB service is disabled
+2024-05-30T01:25:23.690+0800	INFO	payment/alipay_service.go:23	Disabled Alipay service
+2024-05-30T01:25:23.694+0800	INFO	backend/main.go:47	AppLifecycle OnStart
+2024-05-30T01:25:23.696+0800	INFO	core/app_server.go:82	http://0.0.0.0:5678
