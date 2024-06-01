@@ -15,7 +15,7 @@
 1. 更改 config.yaml 文件中的 API_KEY 配置信息，完成节点初始化
 2. 运行算力节点，并通过网络中的广播节点导入网络
 3. 广播算力以及对应价格至 UnlimiteMarketplace 智能合约进行发布
-![image](https://github.com/nft-maker-one/Intersection_of_metadata_and_AI/assets/121859606/fddb7579-4d34-4a75-b0b9-1ee316099388)
+![image](https://github.com/nft-maker-one/Intersection_of_metadata_and_AI/assets/121859606/03c9d8fe-7e0d-4935-aaf8-ce8e7a833a24)
 
 
 ### 无源算力交易平台
@@ -24,5 +24,12 @@
 2. 通过 UnlimiteMarketplace 质押用户相应资产(这个过程中平台只知道用户的公钥而不会保存任何用户隐私)，保证后续能够支付调用算力节点的费用
 3. 检查算力节点所公布的 API_KEY 最近的调度情况，如果调度时间和回复内容与其返回结果一致，判定算力节点完成相应的任务，向其支付先前用户质押的字节
 ![image](https://github.com/nft-maker-one/Intersection_of_metadata_and_AI/assets/121859606/9bb351ad-0ba9-4600-a11a-38dacb3177fb)
+
+### 无迹算力交流平台
+本部分使用 golang 和 vue 实现，具体功能如下
+1. 管理用户所购买的算力节点资源
+2. 从算力节点获取问题的回复并返回给用户
+![image](https://github.com/nft-maker-one/Intersection_of_metadata_and_AI/assets/121859606/ae2664cb-4232-4bc1-9b65-7349155951dc)
+
 
 
