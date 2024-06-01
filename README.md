@@ -1,6 +1,6 @@
-![image](https://github.com/nft-maker-one/Intersection_of_metadata_and_AI/assets/121859606/353c60c2-976f-47cc-88e9-5b217b85829c)# 数悦深者  
+# 数悦深者  
 本产品是结合了区块链和AI的元计算资源云端整合系统。在对闲置资源实现调度的过程中，高度保护了用户的隐私性，首创性的提出了大语言模型时代的无痕浏览。
-![Uploading image.png…](数悦深者进入页面)
+![image](https://github.com/nft-maker-one/Intersection_of_metadata_and_AI/assets/121859606/353c60c2-976f-47cc-88e9-5b217b85829c)
 
 ## 启动教程
 1. 运行数据库文件，利用 Mysql 创建用户的基本信息
