@@ -22,13 +22,14 @@
 本部分使用 golang 和 vue 实现，具体功能如下
 1. 实时获取数悦链上 UnlimiteMarketplace 智能合约的信息，并在平台进行发布
 2. 通过 UnlimiteMarketplace 质押用户相应资产(这个过程中平台只知道用户的公钥而不会保存任何用户隐私)，保证后续能够支付调用算力节点的费用
-3. 检查算力节点所公布的 API_KEY 最近的调度情况，如果调度时间和回复内容与其返回结果一致，判定算力节点完成相应的任务，向其支付先前用户质押的字节
+3. 检查算力节点所公布的 API_KEY 最近的调度情况，如果调度时间和回复内容与其返回结果一致，判定算力节点完成相应的任务，向其支付先前用户质押的资金
 ![image](https://github.com/nft-maker-one/Intersection_of_metadata_and_AI/assets/121859606/9bb351ad-0ba9-4600-a11a-38dacb3177fb)
 
 ### 无迹 AI 交流平台
 本部分使用 golang 和 vue 实现，具体功能如下
 1. 管理用户所购买的算力节点资源
 2. 从算力节点获取问题的回复并返回给用户
+3. 最后，平台会收集用户对回复的满意度，以此决定节点在交易平台展示的先后排序
 ![image](https://github.com/nft-maker-one/Intersection_of_metadata_and_AI/assets/121859606/ae2664cb-4232-4bc1-9b65-7349155951dc)
 
 
